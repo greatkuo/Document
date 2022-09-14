@@ -1,8 +1,14 @@
-# Document
-資料文件控管
+# Batch Language
+介紹Batch File的語法與應用
 
-## Markdown
-markdown語法
+## 常用指令
+### ECHO
+顯示字串
+```
+ECHO Hello
+```
 
-## SourceTree
-SourceTree 操作說明文件 
+### PAUSE
+暫停
+
+
