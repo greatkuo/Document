@@ -54,3 +54,8 @@ cd /c/test
 ```
 gcc -o hello32 hello.c
 ```
+
+## 執行程式
+```
+./hello32
+```
