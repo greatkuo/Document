@@ -9,13 +9,15 @@
 ```
 pacman --needed -Sy bash pacman pacman-mirrors msys2-runtime
 ```
+在使用時建議加上 needed 參數，加上該參數後會自動跳過已安裝的套件。<br>
 更新後務必重新啟動 MSYS2，否則使用時會發生錯誤。
 
 ## 更新套件
 套件指的就是在 MSYS2 環境底下的所有軟體，透過 pacman 這個套件管理程式來統一管理，只要下達以下指令，就可以自動更新所有的套件。
 ```
-pacman -Su
+pacman -Syu
 ```
+第一次執行 MSYS2 通常都會先更新套件至最新版本，y 代表的是更新軟體資料庫 u 代表的是更新套件
 
 ## 安裝 GCC(Gnu Compiler Collection)
 套件前面顯示的就是提供給特定的 Shell 環境使用的版本，以下是我們需要的三個套件：
